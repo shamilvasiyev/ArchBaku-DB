@@ -201,14 +201,6 @@
       "description": "Donec id orci neque. Proin a risus placerat, tempus augue sit amet, venenatis magna. Sed mattis tempor egestas. Suspendisse vel ligula consequat, consectetur lacus id, pretium nisl",
       "sliderItemIndex": "3",
       "img": "src/assets/news/n-4.png"
-    },
-    {
-      "id": "10",
-      "publishedAt": "05.03.2022",
-      "title": "Quisque vitae est risus",
-      "description": "Suspendisse luctus diam nec dolor mattis tempor. Sed eu convallis turpis, feugiat sodales metus. Nullam lacinia euismod fermentum. Aenean vulputate metus enim, quis ullamcorper sem auctor viverra. Pellentesque ac mollis massa.",
-      "sliderItemIndex": "3",
-      "img": "src/assets/news/n-5.png"
     }
   ],
   "vacancies": [
