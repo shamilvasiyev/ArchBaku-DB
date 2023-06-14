@@ -80,15 +80,6 @@
       "sliderItemIndex": "1",
       "type": "repair",
       "projectsPage": true
-    },
-    {
-      "id": "10",
-      "title": "Rhoncus cursus odio malesuada ut",
-      "img": "src/assets/projects/project-2.png",
-      "description": "Mi mauris pharetra risus, sed pretium odio metus sed nisi. Curabitur dictum volutpat augue, ut feugiat diam bibendum gravida. Nullam blandit felis nec porttitor convallis. Ut eu rutrum nulla, in rutrum magna.",
-      "sliderItemIndex": "1",
-      "type": "repair",
-      "projectsPage": true
     }
   ],
   "technics": [
