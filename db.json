@@ -269,52 +269,6 @@
       "img": "src/assets/news/n-5.png"
     }
   ],
-  "workers": [
-    [
-      {
-        "id": "1",
-        "img": "src/assets/workers/w-1.png",
-        "name": "Adil mehdiyev",
-        "specialty": "İnşaat mühəndisi",
-        "experience": "2 il"
-      },
-      {
-        "id": "2",
-        "img": "src/assets/workers/w-2.png",
-        "name": "Rafiq Rzayev",
-        "specialty": "Texniki təhlükəsizlik üzrə mütəxəssis",
-        "experience": "15 ildən çox"
-      },
-      {
-        "id": "3",
-        "img": "src/assets/workers/w-3.png",
-        "name": "Zaur Mikayılov",
-        "specialty": "Geodeziya üzrə mütəxəssis",
-        "experience": "5 il"
-      },
-      {
-        "id": "4",
-        "img": "src/assets/workers/w-4.png",
-        "name": "Rəşad İbrahimov",
-        "specialty": "Geodeziya cihazı üzrə operator",
-        "experience": "3 il"
-      },
-      {
-        "id": "5",
-        "img": "src/assets/workers/w-5.png",
-        "name": "Elnur Mehtiyev",
-        "specialty": "Sahə rəisi",
-        "experience": "1 il"
-      },
-      {
-        "id": "6",
-        "img": "src/assets/workers/w-6.png",
-        "name": "Cəmil Bayramov",
-        "specialty": "Sahə rəisi",
-        "experience": "1 il"
-      }
-    ]
-  ],
   "vacancies": [
     [
       {
