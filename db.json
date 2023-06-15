@@ -81,33 +81,6 @@
       "type": "repair",
       "projectsPage": true
     },
-    {
-      "id": "10",
-      "title": "Rhoncus cursus odio malesuada ut",
-      "img": "/assets/projects/project-2.png",
-      "description": "Mi mauris pharetra risus, sed pretium odio metus sed nisi. Curabitur dictum volutpat augue, ut feugiat diam bibendum gravida. Nullam blandit felis nec porttitor convallis. Ut eu rutrum nulla, in rutrum magna.",
-      "sliderItemIndex": "1",
-      "type": "repair",
-      "projectsPage": true
-    },
-    {
-      "id": "11",
-      "title": "In a lectus nisl",
-      "img": "/assets/projects/project-3.png",
-      "description": "Cras facilisis nisi turpis, rhoncus cursus odio malesuada ut. In a lectus nisl. Fusce ullamcorper tortor id felis tempus, non tincidunt turpis ultrices. Fusce diam odio, consectetur ut porta non, hendrerit non metus.",
-      "sliderItemIndex": "1",
-      "type": "restoration",
-      "projectsPage": true
-    },
-    {
-      "id": "12",
-      "title": "Fusce ullamcorper tortor id felis tempus",
-      "img": "/assets/projects/project-4.png",
-      "description": "Suspendisse luctus diam nec dolor mattis tempor. Sed eu convallis turpis, feugiat sodales metus. Nullam lacinia euismod fermentum. Aenean vulputate metus enim, quis ullamcorper sem auctor viverra. Pellentesque ac mollis massa.",
-      "sliderItemIndex": "1",
-      "type": "repair",
-      "projectsPage": true
-    }
   ],
   "technics": [
     {
@@ -220,100 +193,6 @@
       "sliderItemIndex": "3",
       "img": "/assets/news/n-4.png"
     },
-    {
-      "id": "10",
-      "publishedAt": "05.03.2022",
-      "title": "Quisque vitae est risus",
-      "description": "Suspendisse luctus diam nec dolor mattis tempor. Sed eu convallis turpis, feugiat sodales metus. Nullam lacinia euismod fermentum. Aenean vulputate metus enim, quis ullamcorper sem auctor viverra. Pellentesque ac mollis massa.",
-      "sliderItemIndex": "3",
-      "img": "/assets/news/n-5.png"
-    },
-    {
-      "id": "11",
-      "publishedAt": "05.03.2022",
-      "title": "Vel dignissim odio tempus",
-      "description": "Cras facilisis nisi turpis, rhoncus cursus odio malesuada ut. In a lectus nisl. Fusce ullamcorper tortor id felis tempus, non tincidunt turpis ultrices. Fusce diam odio, consectetur ut porta non, hendrerit non metus.",
-      "sliderItemIndex": "3",
-      "img": "/assets/news/n-1.png"
-    },
-    {
-      "id": "12",
-      "publishedAt": "05.03.2022",
-      "title": "Pellentesque lacinia, quam eget cursus vehicula",
-      "description": "Mi mauris pharetra risus, sed pretium odio metus sed nisi. Curabitur dictum volutpat augue, ut feugiat diam bibendum gravida. Nullam blandit felis nec porttitor convallis. Ut eu rutrum nulla, in rutrum magna.",
-      "sliderItemIndex": "3",
-      "img": "/assets/news/n-2.png"
-    },
-    {
-      "id": "13",
-      "publishedAt": "05.03.2022",
-      "title": "Maecenas consectetur est nec turpis posuere scelerisque",
-      "description": "Duis eget lacus iaculis, varius orci nec, consequat velit. Phasellus faucibus mattis lectus ac varius. Vivamus eget fermentum arcu, vel eleifend elit. Donec at lobortis neque, a hendrerit justo.",
-      "sliderItemIndex": "3",
-      "img": "/assets/news/n-3.png"
-    },
-    {
-      "id": "14",
-      "publishedAt": "05.03.2022",
-      "title": "Suspendisse aliquet molestie dolor",
-      "description": "Donec id orci neque. Proin a risus placerat, tempus augue sit amet, venenatis magna. Sed mattis tempor egestas. Suspendisse vel ligula consequat, consectetur lacus id, pretium nisl",
-      "sliderItemIndex": "3",
-      "img": "/assets/news/n-4.png"
-    },
-    {
-      "id": "15",
-      "publishedAt": "05.03.2022",
-      "title": "Quisque vitae est risus",
-      "description": "Suspendisse luctus diam nec dolor mattis tempor. Sed eu convallis turpis, feugiat sodales metus. Nullam lacinia euismod fermentum. Aenean vulputate metus enim, quis ullamcorper sem auctor viverra. Pellentesque ac mollis massa.",
-      "sliderItemIndex": "3",
-      "img": "/assets/news/n-5.png"
-    }
-  ],
-  "workers": [
-    [
-      {
-        "id": "1",
-        "img": "/assets/workers/w-1.png",
-        "name": "Adil mehdiyev",
-        "specialty": "İnşaat mühəndisi",
-        "experience": "2 il"
-      },
-      {
-        "id": "2",
-        "img": "/assets/workers/w-2.png",
-        "name": "Rafiq Rzayev",
-        "specialty": "Texniki təhlükəsizlik üzrə mütəxəssis",
-        "experience": "15 ildən çox"
-      },
-      {
-        "id": "3",
-        "img": "/assets/workers/w-3.png",
-        "name": "Zaur Mikayılov",
-        "specialty": "Geodeziya üzrə mütəxəssis",
-        "experience": "5 il"
-      },
-      {
-        "id": "4",
-        "img": "/assets/workers/w-4.png",
-        "name": "Rəşad İbrahimov",
-        "specialty": "Geodeziya cihazı üzrə operator",
-        "experience": "3 il"
-      },
-      {
-        "id": "5",
-        "img": "/assets/workers/w-5.png",
-        "name": "Elnur Mehtiyev",
-        "specialty": "Sahə rəisi",
-        "experience": "1 il"
-      },
-      {
-        "id": "6",
-        "img": "/assets/workers/w-6.png",
-        "name": "Cəmil Bayramov",
-        "specialty": "Sahə rəisi",
-        "experience": "1 il"
-      }
-    ]
   ],
   "vacancies": [
     [
