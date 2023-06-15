@@ -195,7 +195,6 @@
     },
   ],
   "vacancies": [
-    [
       {
         "id": "1",
         "title": "Kargüzarlıq",
@@ -227,7 +226,6 @@
           "Komandada işləmək bacarığı"
         ]
       }
-    ]
   ],
   "messages": []
 }
