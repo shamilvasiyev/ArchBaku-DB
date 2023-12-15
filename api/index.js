@@ -3,7 +3,7 @@ const server = jsonServer.create();
 const fs = require("fs");
 const path = require("path");
 
-const filePath = path.join("/tmp", "db.json"); // Use /tmp for write operations in Vercel
+const filePath = path.join("/var/task", "db.json"); // Use /tmp for write operations in Vercel
 
 // Middleware to parse JSON bodies in POST requests
 server.use(jsonServer.bodyParser);
