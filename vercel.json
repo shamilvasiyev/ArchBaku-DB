@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/index.js": {
-      "runtime": "nodejs14"
+      "runtime": "nodejs@14"
     }
   },
   "rewrites": [
