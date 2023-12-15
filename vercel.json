@@ -1,13 +1,13 @@
 {
   "functions": {
-    "api/index.js": {
+    "api/data": {
       "runtime": "nodejs14.x"
     }
   },
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/api/index.js"
+      "destination": "/api/data"
     }
   ]
 }
