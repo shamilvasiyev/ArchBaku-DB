@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Deploy JSON Server to Vercel",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node index.js"
   },
