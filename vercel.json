@@ -1,13 +1,14 @@
 {
   "functions": {
     "api/index.js": {
-      "runtime": "@vercel/node"
+      "memory": 1024,
+      "includeFiles": "db.json"
     }
   },
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "api/server.js"
+      "destination": "api/index.js"
     }
   ]
 }
