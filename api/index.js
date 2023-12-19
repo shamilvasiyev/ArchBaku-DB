@@ -1,34 +1,31 @@
+// api/json-server.js
 const jsonServer = require("json-server");
+const low = require("lowdb");
+const FileSync = require("lowdb/adapters/FileSync");
+
+const adapter = new FileSync("db.json");
+const db = low(adapter);
+
 const server = jsonServer.create();
-const fs = require("fs");
-const path = require("path");
-const filePath = path.join(process.cwd(), "db.json"); // Use __dirname to get the current directory
-const data = fs.readFileSync(filePath, "utf-8");
-const db = JSON.parse(data);
+const router = jsonServer.router("db.json");
+const middlewares = jsonServer.defaults();
 
-server.use(jsonServer.defaults());
-server.use(jsonServer.bodyParser); // Add this line to parse POST request body
+server.use(middlewares);
 
-server.post("/api/data", (req, res) => {
-  // Assuming the POST request contains data in the body
-  const newData = req.body;
-
-  // Update your db object with the new data
-  // For example, let's assume you have an array named 'items' in your db.json
-  db.items.push(newData);
-
-  // Save the updated data back to the db.json file
-  fs.writeFileSync(filePath, JSON.stringify(db, null, 2));
-
-  // Respond with the new data
-  res.json(newData);
+// Enable POST, PUT, and DELETE requests
+server.use(jsonServer.bodyParser);
+server.use((req, res, next) => {
+  if (
+    req.method === "POST" ||
+    req.method === "PUT" ||
+    req.method === "DELETE"
+  ) {
+    // Update the database file after handling the request
+    router.db.setState(db.getState());
+  }
+  next();
 });
 
-// Other routes and configurations...
-const router = jsonServer.router(filePath);
-server.use(router);
+server.use("/api", router);
 
-const port = 3000;
-server.listen(port, () => {
-  console.log(`JSON Server is running on port ${port}`);
-});
+module.exports = server;

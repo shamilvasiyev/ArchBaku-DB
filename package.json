@@ -10,6 +10,8 @@
     "start": "node api/index.js"
   },
   "dependencies": {
-    "json-server": "^0.17.4"
+    "@vercel/node": "^3.0.13",
+    "json-server": "^0.17.4",
+    "lowdb": "^6.1.1"
   }
 }
