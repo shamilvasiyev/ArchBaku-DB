@@ -1,7 +1,6 @@
 const jsonServer = require("json-server");
 const server = jsonServer.create();
-require("dotenv").config();
-const fs = require("@cyclic.sh/s3fs")(process.env.S3_BUCKET_NAME);
+const fs = require("fs");
 const path = require("path");
 const filePath = path.join(process.cwd(), "db.json"); // Use __dirname to get the current directory
 const data = fs.readFileSync(filePath, "utf-8");
