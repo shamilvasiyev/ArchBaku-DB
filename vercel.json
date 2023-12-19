@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/server.js": {
+    "api/index.js": {
       "runtime": "@vercel/node"
     }
   },
